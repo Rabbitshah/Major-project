@@ -1,4 +1,4 @@
-const ExpressError = require("./utils/expressError");
+const ExpressError = require("../Middlewares/ExpressError");
 const Listing = require("./models/listing");
 const Review = require("./models/review");
 const { listingSchema, reviewSchema } = require("./schema");
